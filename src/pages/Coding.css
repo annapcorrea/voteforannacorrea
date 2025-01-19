@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.coding-main-content {
+  padding: 20px 20px 20px 40px; /* Added padding to the left side */
+  width: 100%;
+}
+
+.coding-section {
+  text-align: left; /* Align text to the left */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px 0; /* Padding for heading */
+  text-align: left;
+  font-size: 2rem; /* Default font size for heading */
+}
+
+.coding-paragraph {
+  margin: 0;
+  padding: 10px 0; /* Padding for paragraph */
+  text-align: left;
+  width: 100%;
+  display: block; /* Ensure it's treated as a block element */
+  white-space: normal; /* Allow the text to wrap normally */
+  font-size: 1rem; /* Default font size for paragraph */
+}
+
+form-button {
+  margin: 0;
+  padding: 10px 20px;
+  display: block;
+  text-align: left;
+  width: auto; /* Adjust button width */
+  cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+  .coding-main-content {
+    padding: 20px; /* Remove extra left padding on smaller screens */
+  }
+
+  h1 {
+    font-size: 1.8rem; /* Adjust heading size for mobile */
+  }
+
+  .coding-paragraph {
+    font-size: 0.9rem; /* Adjust paragraph font size for mobile */
+  }
+
+  button {
+    padding: 8px 16px; /* Adjust button padding for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .coding-main-content {
+    padding: 10px; /* Further reduce padding on very small screens */
+  }
+
+  h1 {
+    font-size: 1.6rem; /* Adjust heading size for very small screens */
+  }
+
+  .coding-paragraph {
+    font-size: 0.8rem; /* Adjust paragraph font size for very small screens */
+  }
+
+  button {
+    padding: 6px 12px; /* Further reduce button padding */
+  }
+}
