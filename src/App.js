@@ -8,18 +8,17 @@ import Thanks from './pages/Thanks';
 
 export default function App() {
   return (
-    <div>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/coding" element={<Coding />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/thanks" element={<Thanks />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/coding" element={<Coding />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/thanks" element={<Thanks />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
+
