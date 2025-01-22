@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 import profileImage from '../assets/main.png';
 import inclusivity from '../assets/inclusivity.jpg';
 import innovation from '../assets/innovation.jpg';
-import testimonials_1 from '../assets/testimonials_1.jpg';
+import ian from '../assets/Ian.jpg';
 import testimonials_2 from '../assets/testimonials_2.png';
 import './Home.css'; 
 
@@ -29,10 +29,10 @@ const Testimonial = ({ name, role, content, imgSrc }) => (
 export default function Home() {
   const testimonials = [
     {
-      name: "Tullio Bushrui, Ed.D",
-      role: "Advisor for Chi Epsilon",
-      content: "She has truly distinguished herself as an emerging leader and has become one of the team I know I can always rely on.",
-      imgSrc: testimonials_1
+      name: "Ian O'Toole",
+      role: "Professor, Software Development",
+      content: "Anna exemplifies a collaborative approach to leadership: she leads by example and ensures that everyone has an opportunity to contribute to the team effort.",
+      imgSrc: ian
     },
     {
       name: "Jerry Reed",
